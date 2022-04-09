@@ -15,6 +15,17 @@
                         </div>
                     @enderror
                 </div>
+                {{-- We need a profile photo as the input too so we'll accept the picture here --}}
+              {{--   <div class="mb-4">
+                    <label for="profile_photo" class="sr-only">Profile Photo</label>
+                    <input type="file" name="profile_photo" id="profile_photo" class="bg-gray-100 border-2 w-full p-4 rounded-lg @error('profile_photo') border-red-500 @enderror">
+
+                    @error('profile_photo')
+                        <div class="text-red-500 mt-2 text-sm">
+                            {{ $message }}
+                        </div>
+                    @enderror
+                </div> --}}
 
                 <div class="mb-4">
                     <label for="username" class="sr-only">Username</label>
